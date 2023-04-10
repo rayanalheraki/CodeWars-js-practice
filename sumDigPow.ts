@@ -1,9 +1,3 @@
-/***
- * Kata Title: Take a Number And Sum Its Digits Raised To The Consecutive Powers And
- *
- * Kata link: https://www.codewars.com/kata/5626b561280a42ecc50000d1/javascript
- */
-
 function sumDigPow(a: number, b: number) {
   const resArray: Array<number> = [];
   for (let number = a; number <= b; number++) {
